@@ -1,3 +1,4 @@
+
 import time
 import os
 print()
@@ -12,7 +13,14 @@ try:
     minuto=int(input("What minute of the day is it? =>"))
 
     if hora < 0 or hora > 23 or minuto < 0 or minuto > 59:
-        print("Hour or minute out of range.")
+        print(" ________________________________________________")
+        print("|                                                |")
+        print("|    / \                                         |")
+        print("|   / | \     Hour or minute out of range.       |")
+        print("|  /  *  \                                       |")
+        print("| /_______\                                      |")
+        print("|________________________________________________|")
+        print("")
         exit()
 
     while True:
@@ -25,4 +33,10 @@ try:
             minuto=0
         hora=0
 except:
-    print("Invalid hour or minute entered.")
+    print(" ________________________________________________")
+    print("|                                                |")
+    print("|    / \                                         |")
+    print("|   / | \    Invalid hour or minute entered.     |")
+    print("|  /  *  \                                       |")
+    print("| /_______\                                      |")
+    print("|________________________________________________|")
