@@ -1,8 +1,14 @@
 import time
 import os
+print()
+print(" ___________________")
+print("|                   |")
+print("|   Clock Console   |")
+print("|___________________|")
+print()
 
-hora=int(input("¿En formato de 24 horas que hora del dia es? =>"))
-minuto=int(input("¿Que minuto del dia es? =>"))
+hora=int(input("In 24 hour format what time of day is it? =>"))
+minuto=int(input("What minute of the day is it? =>"))
 
 while True:
     for horas in range(hora,24):
