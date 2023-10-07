@@ -23,4 +23,4 @@ If you have any questions or comments about the project, you can contact Javier 
 
 ## Project status
 
-This project is in version 1
+This project is currently under active development and updates are expected to be released in the near future
