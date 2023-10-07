@@ -13,7 +13,7 @@
 2.Execute the command ```python main.py``` in the command terminal inside the project.
 
 ### Prerequisites
-*Check to have python installed, run ```python --version``` in the terminal. 
+*Check to have <a href="https://www.python.org/" target="_blank"><img src="https://img.shields.io/static/v1?style=for-the-badge&message=Python&color=3776AB&logo=Python&logoColor=FFFFFF&label" /></a>&nbsp;&nbsp; installed, run ```python --version``` in the terminal. 
 
 ## Author
 
