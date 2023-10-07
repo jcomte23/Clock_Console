@@ -1,6 +1,6 @@
-
 import time
 import os
+
 print()
 print(" ___________________")
 print("|                   |")
