@@ -9,34 +9,34 @@ print("|___________________|")
 print()
 
 try:
-    hora=int(input("In 24 hour format what time of day is it? =>"))
-    minuto=int(input("What minute of the day is it? =>"))
+    hour = int(input("In 24 hour format what time of day is it? =>"))
+    minutes = int(input("What minute of the day is it? =>"))
 
-    if hora < 0 or hora > 23 or minuto < 0 or minuto > 59:
-        print(" ________________________________________________")
-        print("|                                                |")
-        print("|    / \                                         |")
-        print("|   / | \     Hour or minute out of range.       |")
-        print("|  /  *  \                                       |")
-        print("| /_______\                                      |")
-        print("|________________________________________________|")
+    if hour < 0 or hour > 23 or minutes < 0 or minutes > 59:
+        print(" _________________________________________________")
+        print("|                                                 |")
+        print("|    / \\                                         |")
+        print("|   / | \\     Hour or minute out of range.       |")
+        print("|  /  *  \\                                       |")
+        print("| /_______\\                                      |")
+        print("|_________________________________________________|")
         print("")
         exit()
 
     while True:
-        for horas in range(hora,24):
-            for minutos in range(minuto,60):
-                for segundos in range(60):
+        for horas in range(hour, 24):
+            for minutes in range(minutes, 60):
+                for seconds in range(60):
                     time.sleep(1)
                     os.system("cls")
-                    print(f"Hora: {horas:02d}:{minutos:02d}:{segundos:02d}")
-            minuto=0
-        hora=0
-except:
-    print(" ________________________________________________")
-    print("|                                                |")
-    print("|    / \                                         |")
-    print("|   / | \    Invalid hour or minute entered.     |")
-    print("|  /  *  \                                       |")
-    print("| /_______\                                      |")
-    print("|________________________________________________|")
+                    print(f"Hora: {horas: 02d}={minutes: 02d}={seconds: 02d}")
+            minutes = 0
+        hour = 0
+except ValueError:
+    print(" _________________________________________________")
+    print("|                                                 |")
+    print("|    / \\                                         |")
+    print("|   / | \\    Invalid hour or minute entered.     |")
+    print("|  /  *  \\                                       |")
+    print("| /_______\\                                      |")
+    print("|_________________________________________________|")
